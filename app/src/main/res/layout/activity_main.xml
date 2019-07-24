@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding">
+
+        <Spinner
+            android:id="@+id/kotaA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/vertical_margin"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/jam_tgl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/vertical_margin"
+                android:text="Tgl" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/left_width"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/vertical_margin"
+                    android:text="Subuh" />
+
+                <TextView
+                    android:id="@+id/jam_subuh"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/vertical_margin"
+                    android:text="12" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/left_width"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/vertical_margin"
+                    android:text="Dzuhur" />
+
+                <TextView
+                    android:id="@+id/jam_dzuhur"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/vertical_margin"
+                    android:text="12" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/left_width"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/vertical_margin"
+                    android:text="Ashar" />
+
+                <TextView
+                    android:id="@+id/jam_ashar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/vertical_margin"
+                    android:text="12" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/left_width"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/vertical_margin"
+                    android:text="Maghrib" />
+
+                <TextView
+                    android:id="@+id/jam_maghrib"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/vertical_margin"
+                    android:text="12" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/left_width"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/vertical_margin"
+                    android:text="Isya" />
+
+                <TextView
+                    android:id="@+id/jam_isya"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/vertical_margin"
+                    android:text="12" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
